@@ -6,18 +6,7 @@ class Gallery extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      bands: [
-        {
-          id: 1,
-          title: "Toto1",
-          author: "Anon."
-        },
-        {
-          id: 2,
-          title: "Toto2",
-          author: "Anon."
-        }
-      ]
+      bands: []
     };
   }
 
