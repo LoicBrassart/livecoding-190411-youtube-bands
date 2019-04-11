@@ -4,7 +4,7 @@ class Band extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <p>Band</p>
+        <p>{this.props.bandName}</p>
       </React.Fragment>
     );
   }

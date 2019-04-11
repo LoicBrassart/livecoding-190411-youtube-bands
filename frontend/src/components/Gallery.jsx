@@ -6,8 +6,8 @@ class Gallery extends React.Component {
     return (
       <React.Fragment>
         Gallery
-        <Band />
-        <Band />
+        <Band bandName="Toto1" />
+        <Band bandName="Toto2" />
       </React.Fragment>
     );
   }
